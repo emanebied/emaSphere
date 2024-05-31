@@ -30,6 +30,8 @@ return [
 
     'env' => env('APP_ENV', 'production'),
 
+    'developer_name'=> env('APP_DEVELOPER', 'developer'),
+
     /*
     |--------------------------------------------------------------------------
     | Application Debug Mode
