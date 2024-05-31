@@ -11,8 +11,6 @@
     <link rel="stylesheet" href="{{ asset('admin/assets/plugins/fontawesome-free/css/all.min.css') }}">
     <!-- Theme style -->
     <link rel="stylesheet" href="{{ asset('admin/assets/dist/css/adminlte.min.css') }}">
-    <!-- Favicon -->
-    <link rel="icon" href="{{ asset('admin/assets/dist/img/user2-160x160.jpg') }}" type="image/x-icon">
 </head>
 <body class="hold-transition sidebar-mini">
 <div class="wrapper">
