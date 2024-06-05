@@ -30,7 +30,20 @@ return [
 
     'env' => env('APP_ENV', 'production'),
 
-    'developer_name'=> env('APP_DEVELOPER', 'developer'),
+    /*
+    |--------------------------------------------------------------------------
+    | Developer Name
+    |--------------------------------------------------------------------------
+    |
+    | This value is the name of the developer. This can be used in various
+    | parts of the application where developer's name might be required.
+    | Set this in your ".env" file.
+    |
+    */
+
+    'developer_name' => env('APP_DEVELOPER', 'developer'),
+
+    /*
 
     /*
     |--------------------------------------------------------------------------
@@ -71,7 +84,7 @@ return [
     |
     */
 
-    'timezone' => 'UTC',
+    'timezone' => 'Africa/Cairo',
 
     /*
     |--------------------------------------------------------------------------
